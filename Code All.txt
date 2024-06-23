@@ -1,0 +1,30 @@
+SELECT * FROM `customers` WHERE `Country` IN ('Thailand', 'France' , 'UK');
+
+
+SELECT * FROM `customers` WHERE `Country` NOT IN ('Thailand', 'France' , 'UK');
+
+
+
+
+SELECT * FROM `customers` WHERE `CustomerID` BETWEEN 3 AND 5;
+SELECT * FROM `customers`WHERE `CustomerID` > 3 AND `CustomerID` < 5;
+
+SELECT * FROM `customers` WHERE `CustomerID` NOT BETWEEN 3 AND 5;
+
+SELECT `Country` FROM `customers` GROUP BY `Country`;
+
+
+git config --global user.name "Sutee Siga"
+git config --global user.email "folktvonemg@hotmail.com"
+
+ls
+
+
+pwd
+
+git add .
+git commit -m "first upload"
+git commit -m "mssage"
+
+git push origin master
+git pull origin master
