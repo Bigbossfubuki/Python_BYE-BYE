@@ -28,3 +28,8 @@ git commit -m "mssage"
 
 git push origin master
 git pull origin master
+
+
+git add .
+git commit -m "ใส่ข้อความอะไรก็ได้"
+git push origin master
